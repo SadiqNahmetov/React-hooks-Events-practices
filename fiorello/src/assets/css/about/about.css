@@ -1,0 +1,43 @@
+#about .img {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #about .img img {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  #about .img:hover img {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  
+  #about .img .player {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  #about .img .player i {
+    color: #f34f3f;
+  }
+  
+  #about .about-text h1 {
+    font-family: "Playfair Display", serif;
+  }
+  
+  #about .about-text h1 span {
+    color: #f34f3f;
+  }
+  
+  #about .about-text p, #about .about-text li {
+    font-family: Lora, serif;
+    font-size: 17px;
+    line-height: 29px;
+  }
